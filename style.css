@@ -212,7 +212,7 @@ nav{
     transform: scale(1.05);
     transition: transform 0.3s ease;
 }
-.container6-videos h1{
+.container6-videos h1, p{
     color: white;
     text-align: center;
     margin-top: 40px;
