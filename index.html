@@ -6,20 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./assets/img/logo-ico.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>Beto Estofados Mcz</title>
 </head>
 
 <body>
     <div class="mascara"></div>
 
-    <main id="home">
+    <main>
         <nav>
             <div class="cabeçalho">
 
-                <a href="#home">Home</a>
+
                 <a href="#sobre">Sobre</a>
                 <a href="#serviços">Serviços</a>
                 <a href="#contato">Contato</a>
+
 
             </div>
 
@@ -42,7 +46,7 @@
             </div>
 
             <div class="button-orçamento-div">
-                <button class="button-orçamento">>> Solicite um Orçamento</button>
+                <button onclick="solicitarOrcamento()" class="button-orçamento">>> Solicite um Orçamento</button>
             </div>
 
         </section>
@@ -97,7 +101,7 @@
             </div>
         </section>
 
-        <section id="serviços" class="container5">
+        <section class="container5">
 
             <h1>Como Podemos Ajudar?</h1>
 
@@ -124,10 +128,10 @@
 
             </div>
 
-            <section class="container6-videos">
+            <section id="#serviços" class="container6-videos">
 
                 <h1>Veja Alguns de Nossos Trabalhos</h1>
-                <p>clique no vídeo pra ver mais detalhes</p>
+                <p>clique no vídeo pra ver em tela cheia</p>
 
                 <div class="content-video">
 
@@ -199,7 +203,8 @@
                             Nossa empresa de reformas residenciais fornece orçamentos precisos e contínuos durante todo
                             o processo
                             de design, além de um preço fixo antes do início da construção.</p>
-                        <button>>> Solicitar Orçamento</button>
+                        <button onclick="solicitarOrcamento()" class="button-orçamento">>> Solicite um
+                            Orçamento</button>
                     </div>
 
                     <div class="preços-iniciais-imagem">
@@ -211,20 +216,48 @@
 
             </section>
 
-            <footer>
-                <div class="footer-content">
-                    <h3>Beto Estofados Mcz</h3>
-                    <p>Transformando estofados há mais de 20 anos, somos líder de reformas e construção de sonhoa
-                        por toda Maceió, Profissionalismo e atenção quase obsessiva aos detalhes. Deixe-nos transformar sua
-                        casa
-                        em um lindo espoço confortável e aconchegante.</p>
-                    <ul class="socials">
-                        <li><a href="#"><img src="./assets/img/whatsapp.png" alt="WhatsApp"></a></li>
-                        <li><a href="#"><img src="./assets/img/instagram.png" alt="Instagram"></a></li>
-                        <li><a href="#"><img src="./assets/img/facebook.png" alt="Facebook"></a></li>
-                    </ul>
+            <footer class="footer">
+                <div class="footer-container">
+
+                    <!-- Logo + Texto -->
+                    <div class="footer-about">
+                        <img src="./assets/img/logo.png" alt="Logo Beto Estofados">
+                        
+                        <p>
+                            Transformando estofados há mais de 20 anos, a <strong>Beto Estofados</strong>
+                            é líder em reformas e na construção de sonhos em Maceió.
+                            Nosso diferencial está no profissionalismo e na atenção aos detalhes.
+                            Deixe-nos transformar sua casa em um espaço confortável e aconchegante.
+                        </p>
+                    </div>
+
+                    <!-- Contato -->
+                    <div class="footer-contact">
+                        <h3>Contato</h3>
+                        <p><strong>📍 Endereço:</strong> Rua Oscalina Maria Silva, 85 Vergel do Lago - Maceió/AL</p>
+                        <p><strong>📞 Whatsapp:</strong> (82) 99665-2730</p>
+                        <p><strong>✉️ Email:</strong> contato@betoestofados.com</p>
+                    </div>
+
+                    <!-- Redes Sociais -->
+                    <div class="footer-social">
+                        <h3>Fale conosco</h3>
+                        <div class="social-icons">
+                            <a href="https://api.whatsapp.com/send?phone=5582996652730&text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20or%C3%A7amento%20com%20voc%C3%AAs."><img src="./assets/img/whatsapp.png" alt="Whatsapp"></a>
+                            <a href="https://www.instagram.com/betoestofadosmcz/"><img src="./assets/img/instagram.png" alt="Instagram"></a>
+                            <!-- <a href="#"><img src="./assets/img/facebook.png" alt="Facebook"></a> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-bottom">
+                    <p>&copy; 2025 Beto Estofados - Todos os direitos reservados.</p>
                 </div>
             </footer>
+
+            <!-- Link do Font Awesome para ícones -->
+            <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
 
     </main>
 </body>

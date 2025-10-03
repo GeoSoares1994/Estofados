@@ -4,6 +4,19 @@ const video3 = document.querySelector('#video3');
 const mascara = document.querySelector('.mascara')
 
 
+
+function solicitarOrcamento() {
+    window.location.href = 'https://api.whatsapp.com/send?phone=5582996652730&text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20or%C3%A7amento%20com%20voc%C3%AAs.'
+}
+
+
+
+
+
+
+
+
+
 video1.addEventListener('click', () => {
     video1.style.width = '600px';
     video1.style.height = '900px';

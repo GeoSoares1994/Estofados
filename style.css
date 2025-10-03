@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Montserrat Alternates", sans-serif;
 }
 body{
     height: 100vh;
@@ -47,6 +48,7 @@ nav{
     margin-right: 20px;
     width: 300px;
     height: 45px;
+    text-decoration: none;
 }
 .button-orçamento:hover{
     background-color: #9e4646;
@@ -170,7 +172,7 @@ nav{
 .serviço1{
     background-color: #9e4646;
     color: white;
-    width: 300px;
+    width: 350px;
     height: 500px;
     border-radius: 20px;
     padding: 20px;
@@ -305,9 +307,10 @@ nav{
     cursor: pointer;
     transition: background-color 0.3s ease;
     margin-top: 20px;
-    width: 200px;
-    height: 40px;
+    width: 250px;
+    height: 50px;
     border: 1px solid white;
+    font-size: 15px;
 }
 .preços-iniciais-textos button:hover{
     background-color: #bb6a6a;
@@ -340,7 +343,7 @@ ul{
     flex-direction: column;
     gap: 50px;
     margin-top: 10px;
-   
+   width: 40%;
 }
 .footer-content h1{
     font-size: 50px;
@@ -350,4 +353,95 @@ ul{
     gap: 20px;
     justify-content: center;
     align-items: center;
+}
+
+/* footer */
+
+/* FOOTER */
+.footer {
+  background: #ffffff;
+  color: #333333;
+  font-family: "Poppins", sans-serif;
+  border-top: 4px solid #e6e6e6;
+  margin-top: 40px;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 40px;
+  max-width: 1200px;
+  margin: auto;
+  padding: 50px 20px;
+}
+.footer-about img{
+    width: 150px;
+    margin-bottom: 15px;
+}
+.footer-about h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.footer-about h2::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: #d4af37; /* Dourado */
+  margin-top: 8px;
+  border-radius: 3px;
+}
+
+.footer-about p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+  max-width: 500px;
+}
+
+.footer-contact h3,
+.footer-social h3 {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  color: #222;
+}
+
+.footer-contact p {
+  margin: 6px 0;
+  font-size: 0.95rem;
+  color: #444;
+}
+
+.footer-social .social-icons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.footer-social .social-icons a {
+  font-size: 1.5rem;
+  color: #555;
+  transition: 0.3s;
+}
+
+.footer-social .social-icons a:hover {
+  color: #d4af37; /* Dourado no hover */
+  transform: scale(1.1);
+}
+
+.footer-bottom {
+  background: #f9f9f9;
+  text-align: center;
+  padding: 15px;
+  border-top: 1px solid #eee;
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #777;
 }
