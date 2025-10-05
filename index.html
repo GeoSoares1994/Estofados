@@ -2,265 +2,199 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./assets/img/logo-ico.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <title>Beto Estofados Mcz</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="./assets/img/logo-ico.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+  <title>Beto Estofados Mcz</title>
 </head>
 
 <body>
-    <div class="mascara"></div>
+  <div class="mascara" aria-hidden="true"></div>
 
-    <main>
-        <nav>
-            <div class="cabeçalho">
+  <main>
+    <nav class="nav">
+      <img class="logo" src="./assets/img/logo.PNG" alt="Logo Beto Estofados" />
+      <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Abrir menu">☰</button>
+      <div id="main-nav" class="cabeçalho">
+        <a href="#sobre">Sobre</a>
+        <a href="#serviços">Serviços</a>
+        <a href="#contato">Contato</a>
+      </div>
+    </nav>
 
+    <section class="container2 fade-up">
+      <div class="textos zoom-in">
+        <h1>Seja Bem-Vindo(a) A Beto Estofados Mcz</h1>
+        <h2>Líder em Reforma e Projeto de Fabricação de sofá</h2>
+        <p>
+          Transformando estofados há mais de 20 anos, somos líder de reformas e construção de sonhos
+          por toda Maceió. Profissionalismo e atenção quase obsessiva aos detalhes. Deixe-nos transformar
+          sua casa em um espaço confortável e aconchegante.
+        </p>
+      </div>
 
-                <a href="#sobre">Sobre</a>
-                <a href="#serviços">Serviços</a>
-                <a href="#contato">Contato</a>
+      <div class="button-orçamento-div">
+        <button onclick="solicitarOrcamento()" class="button-orçamento">Solicite um Orçamento</button>
+      </div>
+    </section>
 
+    <section class="container3 fade-up">
+      <div class="textos">
+        <h1>Por Que Escolher A Beto Estofados?</h1>
+        <p>
+          A <strong>Beto Estofados</strong> nasceu com o propósito de transformar ideias em soluções criativas
+          e funcionais. Desde o início, buscamos unir qualidade, inovação e dedicação em cada projeto,
+          sempre colocando nossos clientes no centro de tudo o que fazemos.
+        </p>
+      </div>
+    </section>
 
-            </div>
+    <section class="container4 fade-up">
+      <div class="textos zoom-in">
+        <h1>Projetos Personalizados</h1>
+        <h2>Feito Sob Medida Para Você</h2>
+        <p>
+          Nossos projetos são feitos sob medida para atender às suas necessidades e preferências.
+          Trabalhamos com uma variedade de estilos, tecidos e acabamentos para garantir que cada
+          peça seja única e reflita sua personalidade.
+        </p>
+        <img src="./assets/img/lisa-amann-lDAkoo6TpWE-unsplash.jpg" alt="Projeto personalizado" />
+      </div>
 
-            <img class="logo" src="./assets/img/logo.PNG">
+      <div class="imagem">
+        <h1>Imagem de Projetos Personalizados</h1>
+        <p>Veja alguns exemplos de nossos projetos personalizados.</p>
+        <img src="./assets/img/francesca-tosolini-9dyitA0YIHE-unsplash.jpg" alt="Exemplos de projetos" />
+      </div>
+    </section>
 
+    <section class="container5 fade-up">
+      <h1>Como Podemos Ajudar?</h1>
 
-        </nav>
+      <div class="imagens-serviços">
+        <div class="serviço1 zoom-in">
+          <h2>Reforma de Estofados</h2>
+          <p>Renove seus móveis antigos com nossa reforma de estofados. Dê uma nova vida ao seu sofá, poltrona ou
+            cadeira com tecidos modernos e confortáveis.</p>
+          <img src="./assets/img/hutomo-abrianto-Q_fZcn8vlWY-unsplash.jpg" alt="Reforma de estofados" />
+        </div>
 
-        <section class="container2">
+        <div class="serviço1 zoom-in">
+          <h2>Modificação de Estofados</h2>
+          <p>Renove seus móveis com nossa modificação de estofados. Dê uma nova vida ao seu sofá, poltrona ou cadeira
+            com tecidos modernos e confortáveis.</p>
+          <img src="./assets/img/hutomo-abrianto-Q_fZcn8vlWY-unsplash.jpg" alt="Modificação de estofados" />
+        </div>
 
-            <div class="textos">
-                <h1>Seja Bem-Vindo(a) A Beto Estofados Mcz</h1>
-                <h2>Lider em Reforma e Projeto de Fabricação de sofá</h2>
-                <p>Transformando estofados há mais de 20 anos, somos líder de reformas e construção de sonhoa
-                    por toda Maceió, Profissionalismo e atenção quase obsessiva aos detalhes. Deixe-nos transformar sua
-                    casa
-                    em um lindo espoço confortável e aconchegante.
-                </p>
+        <div class="serviço1 zoom-in">
+          <h2>Fabricação do seu Estofado</h2>
+          <p>Fabrique seus móveis de acordo com suas necessidades. Deixe seu ambiente renovado com tecidos modernos e
+            confortáveis.</p>
+          <img src="./assets/img/hutomo-abrianto-Q_fZcn8vlWY-unsplash.jpg" alt="Fabricação de estofado" />
+        </div>
+      </div>
+    </section>
 
-            </div>
+    <section id="serviços" class="container6-videos fade-up">
+      <h1>Veja Alguns de Nossos Trabalhos</h1>
+      <p>clique no vídeo pra ver em tela cheia</p>
 
-            <div class="button-orçamento-div">
-                <button onclick="solicitarOrcamento()" class="button-orçamento">>> Solicite um Orçamento</button>
-            </div>
+      <div class="content-video">
+        <div class="video1 video-item">
+          <video id="video1" muted loop playsinline preload="metadata">
+            <source src="./assets/video/video1.mp4" type="video/mp4" />
+            Seu navegador não suporta o elemento de vídeo.
+          </video>
+        </div>
 
-        </section>
+        <div class="video1 video-item">
+          <video id="video2" muted loop playsinline preload="metadata">
+            <source src="./assets/video/video2.mp4" type="video/mp4" />
+            Seu navegador não suporta o elemento de vídeo.
+          </video>
+        </div>
 
-        <section class="container3">
+        <div class="video1 video-item">
+          <video id="video3" muted loop playsinline preload="metadata">
+            <source src="./assets/video/video3.mp4" type="video/mp4" />
+            Seu navegador não suporta o elemento de vídeo.
+          </video>
+        </div>
+      </div>
+    </section>
 
-            <div class="textos">
-                <h1>Por Que Escolher A Beto Estofados?</h1>
-                <p>A <strong>Beto Estofados</strong> nasceu com o propósito de transformar ideias em soluções criativas
-                    e funcionais.
-                    Desde o início, buscamos unir qualidade, inovação e dedicação em cada projeto, sempre colocando
-                    nossos clientes no centro de tudo o que fazemos.<br>
+    <div class="galeria fade-up">
+      <h1>Galeria de Fotos</h1>
 
-                    Com uma equipe apaixonada e comprometida, oferecemos serviços que vão além da entrega: buscamos
-                    construir relacionamentos de confiança, baseados em transparência e resultados reais.<br>
+      <div class="fotos-galeria">
+        <div class="foto1"><img src="./assets/img/1.jpg" alt="Foto 1" /></div>
+        <div class="foto1"><img src="./assets/img/2.jpg" alt="Foto 2" /></div>
+        <div class="foto1"><img src="./assets/img/3.jpg" alt="Foto 3" /></div>
+        <div class="foto1"><img src="./assets/img/4.jpg" alt="Foto 4" /></div>
+        <div class="foto1"><img src="./assets/img/5.jpg" alt="Foto 5" /></div>
+        <div class="foto1"><img src="./assets/img/6.jpg" alt="Foto 6" /></div>
+      </div>
+    </div>
 
-                    Nosso objetivo é simples: ajudar pessoas e empresas a alcançarem seus sonhos, oferecendo produtos e
-                    serviços que fazem a diferença no dia a dia.<br>
+    <section class="container8 fade-up">
+      <div class="preços-iniciais">
+        <div class="preços-iniciais-textos">
+          <h1>Preços iniciais</h1>
+          <p>Acesse nossos guias de preços gratuitos para ter uma ideia aproximada de quanto seu projeto pode custar.
+            Nossa empresa de reformas residenciais fornece orçamentos precisos e contínuos durante todo o processo.</p>
+          <button onclick="solicitarOrcamento()" class="button-orçamento">Solicite um Orçamento</button>
+        </div>
 
-                    Na <strong>Beto Estofados</strong>, acreditamos que cada detalhe importa, e é por isso que
-                    trabalhamos com carinho
-                    e profissionalismo em cada etapa, do planejamento à execução.<br>Na <strong>Beto Estofados</strong>,
-                    nos destacamos pela
-                    qualidade e dedicação em cada projeto. Nossa equipe é
-                    altamente
-                    capacitada e apaixonada pelo que faz, garantindo resultados excepcionais e a satisfação de
-                    nossos
-                    clientes.</p>
+        <div class="preços-iniciais-imagem"><img src="./assets/img/lisa-amann-lDAkoo6TpWE-unsplash.jpg"
+            alt="Preços iniciais" /></div>
+      </div>
+    </section>
 
-            </div>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-about">
+          <img src="./assets/img/logo.png" alt="Logo Beto Estofados" />
+          <p>
+            Transformando estofados há mais de 20 anos, a <strong>Beto Estofados</strong> é líder em reformas e na
+            construção de sonhos em Maceió. Nosso diferencial está no profissionalismo e na atenção aos detalhes.
+          </p>
+        </div>
 
+        <div class="footer-contact">
+          <h3>Contato</h3>
+          <p><strong>📍 Endereço:</strong> Rua Oscalina Maria Silva, 85 Vergel do Lago - Maceió/AL</p>
+          <p><strong>📞 Whatsapp:</strong> (82) 99665-2730</p>
+          <p><strong>✉️ Email:</strong> contato@betoestofados.com</p>
+        </div>
 
-        </section>
+        <div class="footer-social">
+          <h3>Fale conosco</h3>
+          <div class="social-icons">
+            <a
+              href="https://api.whatsapp.com/send?phone=5582996652730&text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20or%C3%A7amento%20com%20voc%C3%AAs."><img
+                src="./assets/img/whatsapp.png" alt="Whatsapp" /></a>
+            <a href="https://www.instagram.com/betoestofadosmcz/"><img src="./assets/img/instagram.png"
+                alt="Instagram" /></a>
+          </div>
+        </div>
+      </div>
 
-        <section class="container4">
+      <div class="footer-bottom">
+        <p>&copy; 2025 Beto Estofados - Todos os direitos reservados.</p>
+      </div>
+    </footer>
 
-            <div class="textos">
-                <h1>Projetos Personalizados</h1>
-                <h2>Feito Sob Medida Para Você</h2>
-                <p>Nossos projetos são feitos sob medida para atender às suas necessidades e preferências.
-                    Trabalhamos com uma variedade de estilos, tecidos e acabamentos para garantir que cada
-                    peça seja única e reflita sua personalidade.</p>
-                <img src="./assets/img/lisa-amann-lDAkoo6TpWE-unsplash.jpg">
+  </main>
 
-            </div>
-            <div class="imagem">
-
-                <h1>Imagem de Projetos Personalizados</h1>
-                <p>Veja alguns exemplos de nossos projetos personalizados.</p>
-                <img src="./assets/img/francesca-tosolini-9dyitA0YIHE-unsplash.jpg">
-
-            </div>
-        </section>
-
-        <section class="container5">
-
-            <h1>Como Podemos Ajudar?</h1>
-
-            <div class="imagens-serviços">
-
-                <div class="serviço1">
-                    <h2>Reforma de Estofados</h2>
-                    <p>Renove seus móveis antigos com nossa reforma de estofados.
-                        Dê uma nova vida ao seu sofá, poltrona ou cadeira com tecidos modernos e confortáveis.</p>
-                    <img src="./assets/img/hutomo-abrianto-Q_fZcn8vlWY-unsplash.jpg">
-                </div>
-                <div class="serviço1">
-                    <h2>Modificação de Estofados</h2>
-                    <p>Renove seus móveis com nossa modificação de estofados.
-                        Dê uma nova vida ao seu sofá, poltrona ou cadeira com tecidos modernos e confortáveis.</p>
-                    <img src="./assets/img/hutomo-abrianto-Q_fZcn8vlWY-unsplash.jpg">
-                </div>
-                <div class="serviço1">
-                    <h2>Fabricação do seu Estofado</h2>
-                    <p>Fabrique seus móveis de acordo com suas necessidades.
-                        Deixe seu hambiente de cara nova, poltrona ou cadeira com tecidos modernos e confortáveis.</p>
-                    <img src="./assets/img/hutomo-abrianto-Q_fZcn8vlWY-unsplash.jpg">
-                </div>
-
-            </div>
-
-            <section id="#serviços" class="container6-videos">
-
-                <h1>Veja Alguns de Nossos Trabalhos</h1>
-                <p>clique no vídeo pra ver em tela cheia</p>
-
-                <div class="content-video">
-
-
-                    <div class="video1">
-
-                        <video id="video1" autoplay muted loop>
-                            <source src="./assets/video/video1.mp4" type="video/mp4">
-                            Seu navegador não suporta o elemento de vídeo.
-                        </video>
-                    </div>
-                    <div class="video1">
-
-                        <video id="video2" autoplay muted loop>
-                            <source src="./assets/video/video2.mp4" type="video/mp4">
-                            Seu navegador não suporta o elemento de vídeo.
-                        </video>
-                    </div>
-                    <div class="video1">
-
-                        <video id="video3" autoplay muted loop>
-                            <source src="./assets/video/video3.mp4" type="video/mp4">
-                            Seu navegador não suporta o elemento de vídeo.
-                        </video>
-                    </div>
-
-
-                </div>
-
-
-            </section class=container7>
-
-            <div class="galeria">
-                <h1>Galeria de Fotos</h1>
-
-
-                <div class="fotos-galeria">
-
-                    <div class="foto1">
-                        <img src="./assets/img/1.jpg">
-                    </div>
-                    <div class="foto1">
-                        <img src="./assets/img/2.jpg">
-                    </div>
-                    <div class="foto1">
-                        <img src="./assets/img/3.jpg">
-                    </div>
-                    <div class="foto1">
-                        <img src="./assets/img/4.jpg">
-                    </div>
-                    <div class="foto1">
-                        <img src="./assets/img/5.jpg">
-                    </div>
-                    <div class="foto1">
-                        <img src="./assets/img/6.jpg">
-                    </div>
-
-                </div>
-            </div>
-
-            <section class="container8">
-
-                <div class="preços-iniciais">
-
-                    <div class="preços-iniciais-textos">
-                        <h1>Preços iniciais</h1>
-                        <p>Acesse nossos guias de preços gratuitos para ter uma ideia aproximada de quanto seu projeto
-                            pode custar.
-                            Nossa empresa de reformas residenciais fornece orçamentos precisos e contínuos durante todo
-                            o processo
-                            de design, além de um preço fixo antes do início da construção.</p>
-                        <button onclick="solicitarOrcamento()" class="button-orçamento">>> Solicite um
-                            Orçamento</button>
-                    </div>
-
-                    <div class="preços-iniciais-imagem">
-                        <img src="./assets/img/lisa-amann-lDAkoo6TpWE-unsplash.jpg">
-
-                    </div>
-
-                </div>
-
-            </section>
-
-            <footer class="footer">
-                <div class="footer-container">
-
-                    <!-- Logo + Texto -->
-                    <div class="footer-about">
-                        <img src="./assets/img/logo.png" alt="Logo Beto Estofados">
-                        
-                        <p>
-                            Transformando estofados há mais de 20 anos, a <strong>Beto Estofados</strong>
-                            é líder em reformas e na construção de sonhos em Maceió.
-                            Nosso diferencial está no profissionalismo e na atenção aos detalhes.
-                            Deixe-nos transformar sua casa em um espaço confortável e aconchegante.
-                        </p>
-                    </div>
-
-                    <!-- Contato -->
-                    <div class="footer-contact">
-                        <h3>Contato</h3>
-                        <p><strong>📍 Endereço:</strong> Rua Oscalina Maria Silva, 85 Vergel do Lago - Maceió/AL</p>
-                        <p><strong>📞 Whatsapp:</strong> (82) 99665-2730</p>
-                        <p><strong>✉️ Email:</strong> contato@betoestofados.com</p>
-                    </div>
-
-                    <!-- Redes Sociais -->
-                    <div class="footer-social">
-                        <h3>Fale conosco</h3>
-                        <div class="social-icons">
-                            <a href="https://api.whatsapp.com/send?phone=5582996652730&text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20or%C3%A7amento%20com%20voc%C3%AAs."><img src="./assets/img/whatsapp.png" alt="Whatsapp"></a>
-                            <a href="https://www.instagram.com/betoestofadosmcz/"><img src="./assets/img/instagram.png" alt="Instagram"></a>
-                            <!-- <a href="#"><img src="./assets/img/facebook.png" alt="Facebook"></a> -->
-                        </div>
-                    </div>
-                </div>
-
-                <div class="footer-bottom">
-                    <p>&copy; 2025 Beto Estofados - Todos os direitos reservados.</p>
-                </div>
-            </footer>
-
-            <!-- Link do Font Awesome para ícones -->
-            <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-
-
-    </main>
+  <!-- Font Awesome (apenas para ícones se desejar) -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
 </body>
-<script src="script.js"></script>
 
 </html>
