@@ -512,7 +512,7 @@ section {
   }
 
   .container4 {
-    flex-direction: column
+    flex-direction: column;
   }
 
   .imagens-serviços {
