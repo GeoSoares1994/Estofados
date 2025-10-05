@@ -520,7 +520,7 @@ section {
   }
 
   .content-video {
-    gap: 12px
+    gap: 12px;
   }
 
   .video-item {
@@ -532,11 +532,11 @@ section {
   }
 
   .footer-container {
-    text-align: center
+    text-align: center;
   }
 
   .button-orçamento {
-    width: 200px
+    width: 200px;
   }
 
   .container5 h1{
@@ -557,5 +557,5 @@ section {
 /* pequenas melhorias visuais */
 a,
 button {
-  font-family: inherit
+  font-family: inherit;
 }
