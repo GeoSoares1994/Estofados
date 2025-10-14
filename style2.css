@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #9e4646;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+    .painel {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #9e4646;
+        color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        margin: 0 auto;
+        max-width: 600px;
+        text-align: center;
+        margin-top: 50px;
+        border-radius: 20px;
+        width: 70%;
+        border: 3px solid white;
+    }
+    .painel a{
+        color: deepskyblue;
+        text-decoration: none;
+        
+    }
+    .painel p{
+        margin-top: 20px;
+    }
+    .painel a:hover{
+        text-decoration: underline;
+    }
+
+        .painel h1 {
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+
+    .painel p {
+        font-size: 1.2rem;
+    }
+
+    .painel input {
+        width: 80%;
+        padding: 10px;
+        margin: 10px 0;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .painel button {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        background-color: #333;
+        color: #fff;
+        cursor: pointer;
+    }
+    .painel button:hover {
+        background-color: #555;
+    }
+
+
+
+@media (max-width:1024px) {
+
+    .painel {
+        background-color: #9e4646;
+        color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        margin: 0 auto;
+        max-width: 600px;
+        text-align: center;
+        margin-top: 50px;
+        border-radius: 20px;
+        width: 70%;
+        border: 3px solid white;
+    }
+
+        .painel h1 {
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+
+    .painel p {
+        font-size: 1.2rem;
+    }
+
+    .painel input {
+        width: 80%;
+        padding: 10px;
+        margin: 10px 0;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .painel button {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        background-color: #333;
+        color: #fff;
+        cursor: pointer;
+    }
+    .painel button:hover {
+        background-color: #555;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .painel {
+        background-color: #9e4646;
+        color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        margin: 0 auto;
+        max-width: 600px;
+        text-align: center;
+        margin-top: 50px;
+        border-radius: 20px;
+        width: 90%;
+    }
+
+    .painel h1 {
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+
+    .painel p {
+        font-size: 1.2rem;
+    }
+
+    .painel input {
+        width: 80%;
+        padding: 10px;
+        margin: 10px 0;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .painel button {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        background-color: #333;
+        color: #fff;
+        cursor: pointer;
+    }
+}
