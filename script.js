@@ -1,7 +1,7 @@
 
-const video1 = document.querySelector('#video1');
-const video2 = document.querySelector('#video2');
-const video3 = document.querySelector('#video3');
+const video = document.querySelector('#video1, #video2, #video3');
+// const video2 = document.querySelector('#video2');
+// const video3 = document.querySelector('#video3');
 const mascara = document.querySelector('.mascara');
 
 
@@ -9,8 +9,6 @@ const mascara = document.querySelector('.mascara');
 function solicitarOrcamento() {
   window.location.href = 'https://api.whatsapp.com/send?phone=5582996652730&text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20or%C3%A7amento%20com%20voc%C3%AAs.';
 }
-
-
 
 
 
@@ -29,7 +27,7 @@ const observer = new IntersectionObserver((entries) => {
     if (entry.isIntersecting) {
       entry.target.classList.add('animate');
       // se quiser que a animação ocorra apenas 1 vez, descomente a linha abaixo:
-      observer.unobserve(entry.target);
+      // observer.unobserve(entry.target);
     }
   });
 }, observerOptions);

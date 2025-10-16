@@ -12,63 +12,124 @@ body {
 }
 
 
-    .painel {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        background-color: #9e4646;
-        color: #fff;
-        padding: 20px;
-        border-radius: 5px;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        margin: 0 auto;
-        max-width: 600px;
-        text-align: center;
-        margin-top: 50px;
-        border-radius: 20px;
-        width: 70%;
-        border: 3px solid white;
-    }
-    .painel a{
-        color: deepskyblue;
-        text-decoration: none;
-        
-    }
-    .painel p{
-        margin-top: 20px;
-    }
-    .painel a:hover{
-        text-decoration: underline;
-    }
+.footer {
+    background: #ffffff;
+    color: #333;
+    border-top: 4px solid #e6e6e6;
+    margin-top: 40px
+}
 
-        .painel h1 {
-        font-size: 2rem;
-        margin-bottom: 10px;
-    }
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 24px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 20px
+}
 
-    .painel p {
-        font-size: 1.2rem;
-    }
+.footer-about,
+.footer-contact,
+.footer-social {
+    display: flex;
+    flex-direction: column;
+    gap: 12px
+}
 
-    .painel input {
-        width: 80%;
-        padding: 10px;
-        margin: 10px 0;
-        border: none;
-        border-radius: 5px;
-    }
+.footer-about img {
+    margin: 15px auto;
+    width: 150px;
+    height: auto;
+    align-items: center;
+}
 
-    .painel button {
-        padding: 10px 20px;
-        border: none;
-        border-radius: 5px;
-        background-color: #333;
-        color: #fff;
-        cursor: pointer;
-    }
-    .painel button:hover {
-        background-color: #555;
-    }
+.footer h3 {
+    margin-bottom: 12px;
+    text-align: center;
+    color: #9e4646
+}
+
+.footer-bottom {
+    background: #f9f9f9;
+    text-align: center;
+    padding: 15px;
+    border-top: 1px solid #eee
+}
+
+.social-icons {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px
+}
+
+.social-icons img {
+    width: 30px;
+    align-items: center;
+}
+
+.painel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #9e4646;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 20px;
+    width: 70%;
+    border: 3px solid white;
+}
+
+.painel a {
+    color: deepskyblue;
+    text-decoration: none;
+
+}
+
+.painel p {
+    margin-top: 20px;
+}
+
+.painel a:hover {
+    text-decoration: underline;
+}
+
+.painel h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.painel p {
+    font-size: 1.2rem;
+}
+
+.painel input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.painel button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+.painel button:hover {
+    background-color: #555;
+}
 
 
 
@@ -89,7 +150,7 @@ body {
         border: 3px solid white;
     }
 
-        .painel h1 {
+    .painel h1 {
         font-size: 2rem;
         margin-bottom: 10px;
     }
@@ -114,6 +175,7 @@ body {
         color: #fff;
         cursor: pointer;
     }
+
     .painel button:hover {
         background-color: #555;
     }
