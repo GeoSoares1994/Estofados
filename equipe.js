@@ -11,7 +11,7 @@ const fotos = [
     {src: './assets/img/3.jpg', name: 'foto3'},
     {src: './assets/img/4.jpg', name: 'foto4'},
     {src: './assets/img/5.jpg', name: 'foto5'},
-    {src: './assets/img/6.jpg', name: 'foto6'},
+    {src: './assets/img/6.jpg', name: 'foto6'}
 ]
 
 fotos.forEach(foto => {
@@ -20,8 +20,6 @@ fotos.forEach(foto => {
     img.alt = foto.name;
     fotosgaleria.appendChild(img);
 });
-
-
 
 
 
