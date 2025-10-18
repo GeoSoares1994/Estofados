@@ -4,15 +4,9 @@ let funcao = document.querySelector('.funcao')
 
 let fotosgaleria = document.querySelector('.fotosgaleria')
 
-const aviso = document.querySelector('.aviso')
-const buttonaviso = document.querySelector('.button-aviso')
 
 
-buttonaviso.addEventListener('click', () => {
 
-    
-    aviso.style.display = "none"
-})
 
 
 const fotos = [

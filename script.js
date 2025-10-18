@@ -1,15 +1,21 @@
 
 const video = document.querySelector('#video1, #video2, #video3');
-// const video2 = document.querySelector('#video2');
-// const video3 = document.querySelector('#video3');
+
 const mascara = document.querySelector('.mascara');
 
+const aviso = document.querySelector('.aviso')
+const buttonaviso = document.querySelector('.button-aviso')
 
 
 function solicitarOrcamento() {
   window.location.href = 'https://api.whatsapp.com/send?phone=5582996652730&text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20or%C3%A7amento%20com%20voc%C3%AAs.';
 }
 
+buttonaviso.addEventListener('click', () => {
+
+    
+    aviso.style.display = "none"
+})
 
 
 /* MENU HAMBURGUER */

@@ -474,28 +474,49 @@ p {
 }
 
 
-  .aviso{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 50px 10px;
-    text-align: center;
-    background-color: #eee;
-  }
-  .aviso button{
-    background-color: #9e4646;
-    color: white;
-    border: none;
-    border-radius: 10px;
-    height: 50px;
-    font-size: 15px;
-    width: 50%;
-    margin: 0 auto;
-  }
-  .aviso button:hover{
-    opacity: 0.6;
-    cursor: pointer;
-  }
+.aviso {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  /* Fica por cima da página */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  /* Ocupa a tela toda */
+  background: rgba(0, 0, 0, 0.6);
+  /* Fundo escurecido opcional */
+  color: white;
+  z-index: 1000;
+}
+
+
+.aviso button {
+  background-color: #9e4646;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  height: 50px;
+  font-size: 15px;
+  width: 20%;
+  margin: 0 auto;
+}
+
+.aviso p {
+  width: 30%;
+}
+
+.aviso a {
+  color: royalblue;
+  text-decoration: none;
+}
+
+.aviso button:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
 
 /* Responsividade - tablets and phones */
 @media (max-width: 1024px) {
@@ -515,23 +536,49 @@ p {
     max-width: 320px
   }
 
-    .aviso{
+  .aviso {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    margin: 50px 10px;
-    text-align: center;
-    background-color: #eee;
-  }
-  .aviso button{
-    background-color: #9e4646;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    /* Fica por cima da página */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    /* Ocupa a tela toda */
+    background: rgba(0, 0, 0, 0.6);
+    /* Fundo escurecido opcional */
     color: white;
-    border: none;
-    border-radius: 10px;
-    height: 50px;
-    font-size: 15px;
+    z-index: 1000;
+    font-size: 20px;
+  }
+
+  .aviso p {
+    width: 90%;
+  }
+
+  .aviso a {
+    color: royalblue;
+    text-decoration: none;
+  }
+
+  .aviso h1 {
+    text-align: center;
+    font-size: 35px;
   }
 }
+
+.aviso button {
+  background-color: #9e4646;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  height: 50px;
+  font-size: 15px;
+}
+
 
 @media (max-width: 768px) {
   .menu-toggle {
@@ -652,15 +699,25 @@ p {
     color: black;
   }
 
-  .aviso{
+  .aviso {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    margin: 50px 10px;
-    text-align: center;
-    background-color: #eee;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    /* Fica por cima da página */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    /* Ocupa a tela toda */
+    background: rgba(0, 0, 0, 0.6);
+    /* Fundo escurecido opcional */
+    color: white;
+    z-index: 1000;
   }
-  .aviso button{
+
+  .aviso button {
     background-color: #9e4646;
     color: white;
     border: none;
@@ -670,7 +727,6 @@ p {
   }
 }
 
-/* pequenas melhorias visuais */
 a,
 button {
   font-family: inherit;
