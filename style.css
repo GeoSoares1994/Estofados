@@ -560,8 +560,8 @@ p {
   }
 
   .aviso a {
-    color: royalblue;
-    text-decoration: none;
+    color: yellowgreen;
+    text-decoration: underline;
   }
 
   .aviso h1 {
