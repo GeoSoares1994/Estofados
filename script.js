@@ -8,7 +8,7 @@ const buttonaviso = document.querySelector('.button-aviso')
 
 
 function solicitarOrcamento() {
-  window.location.href = 'https://api.whatsapp.com/send?phone=5582996652730&text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20or%C3%A7amento%20com%20voc%C3%AAs.';
+  window.location.href = 'https://api.whatsapp.com/send?phone=5582999818788&text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20or%C3%A7amento%20com%20voc%C3%AAs.';
 }
 
 buttonaviso.addEventListener('click', () => {
