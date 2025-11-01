@@ -312,11 +312,14 @@ p {
 }
 
 .fotos-galeria img {
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  width: 70%;
   height: auto;
   border-radius: 10px;
-  cursor: pointer;
-  transition: transform .25s
+  transition: transform .25s;
+  
 }
 
 .fotos-galeria img:hover {

@@ -10,12 +10,11 @@ let fotosgaleria = document.querySelector('.fotosgaleria')
 
 
 const fotos = [
-    {src: './assets/img/1.jpg', name: 'foto1'},
-    {src: './assets/img/2.jpg', name: 'foto2'},
-    {src: './assets/img/3.jpg', name: 'foto3'},
-    {src: './assets/img/4.jpg', name: 'foto4'},
-    {src: './assets/img/5.jpg', name: 'foto5'},
-    {src: './assets/img/6.jpg', name: 'foto6'}
+    {src: './assets/img/1.png', name: 'foto1'},
+    {src: './assets/img/2.png', name: 'foto2'},
+    {src: './assets/img/3.png', name: 'foto3'},
+    {src: './assets/img/4.png', name: 'foto4'},
+    {src: './assets/img/5.png', name: 'foto5'}
 ]
 
 fotos.forEach(foto => {
