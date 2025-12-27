@@ -26,13 +26,12 @@ menuBtn.addEventListener('click', () => {
   menuBtn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
 });
 
-/* Animações: IntersectionObserver para fade-up e zoom-in */
+
 const observerOptions = { root: null, rootMargin: '0px', threshold: 0.12 };
 const observer = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
       entry.target.classList.add('animate');
-      // se quiser que a animação ocorra apenas 1 vez, descomente a linha abaixo:
       // observer.unobserve(entry.target);
     }
   });
