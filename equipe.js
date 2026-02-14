@@ -1,11 +1,8 @@
 
 let name = document.querySelector('.name')
 let funcao = document.querySelector('.funcao')
-
 let fotosgaleria = document.querySelector('.fotosgaleria')
-
 const bntadd = document.querySelector('.bnt-add');
-
 let mensagem = document.querySelector(".t-mensagem")
 
 

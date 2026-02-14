@@ -13,7 +13,6 @@ function solicitarOrcamento() {
 
 buttonaviso.addEventListener('click', () => {
 
-    
     aviso.style.display = "none"
 })
 
