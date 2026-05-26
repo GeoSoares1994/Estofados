@@ -1,10 +1,5 @@
 
 
-<?php
-
-$anoatual = date('Y');
-
-?>
 
 
 <!DOCTYPE html>
