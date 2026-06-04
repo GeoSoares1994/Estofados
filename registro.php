@@ -61,7 +61,7 @@
 require 'footer.php';
 
 
-if ($_SERVER['REQUEST_METHOD'] == POST) {
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
   $nome = limpar($_POST['nome']);
   $senha = limpar($_POST['senha']);

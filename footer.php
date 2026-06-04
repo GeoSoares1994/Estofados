@@ -3,6 +3,8 @@
 
 $anoatual = date('Y');
 
+require 'data.php';
+
 ?>
 
 <footer class="footer">
@@ -37,4 +39,4 @@ $anoatual = date('Y');
       <div class="footer-bottom">
         <p>&copy; 2000 - <?php echo $anoatual;?> Beto Estofados - Todos os direitos reservados. </p> <p>Hoje: <?php echo $hoje;?></p> <p>Hora: <?php echo $hora;?></p>
       </div>
-    </footer>
+    </footer>;
