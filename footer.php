@@ -35,6 +35,6 @@ $anoatual = date('Y');
       </div>
 
       <div class="footer-bottom">
-        <p>&copy; 2025 - <?php echo $anoatual;?> Beto Estofados - Todos os direitos reservados.</p>
+        <p>&copy; 2000 - <?php echo $anoatual;?> Beto Estofados - Todos os direitos reservados. </p> <p>Hoje: <?php echo $hoje;?></p> <p>Hora: <?php echo $hora;?></p>
       </div>
     </footer>

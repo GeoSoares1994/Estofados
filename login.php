@@ -25,7 +25,7 @@
 
             <button type="submit">Entrar</button><br>
             <p>Nâo tem conta? <a href="registro.php">registre-se</a></p><br>
-            <a id="voltar" href="index.php">Voltar ao site</a>
+            <a id="voltar" href="index.php">Página inicial</a>
         </form>
     </div>
 

@@ -1,5 +1,9 @@
 
+<?php 
 
+require 'data.php';
+
+?>
 
 
 <!DOCTYPE html>
@@ -32,6 +36,7 @@
         <a href="#videos">Videos</a>
         <a href="#contato">Contato</a>
         <a href="registro.php">Registro</a>
+        <a href="login.php">Login</a>
       </div>
     </nav>
 
@@ -216,7 +221,8 @@
 </body>
 
 </html>
+
 <?php
-require 'footer.php';
+require 'footer.php';//footer importado
 
 ?>
